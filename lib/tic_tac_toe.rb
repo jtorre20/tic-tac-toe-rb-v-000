@@ -99,7 +99,7 @@ board.each do |position|
   end
   return counter
 end
-binding.pry
+
 
 def current_player(board)
 if turn_count(board) % 2 == 0
@@ -108,7 +108,7 @@ else
   return "O"
 end
 end
-
+binding.pry
 
 def won?(board)
 
