@@ -108,7 +108,7 @@ else
   return "O"
 end
 end
-binding.pry
+#binding.pry
 
 def won?(board)
 
